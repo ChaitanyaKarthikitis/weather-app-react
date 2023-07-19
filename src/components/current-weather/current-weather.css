@@ -63,7 +63,7 @@
 
 @media (max-width:450px) {
     .weather{
-        width: 90%;
+        width: 80%;
     }
 
     .temp--parameters{
