@@ -1,0 +1,77 @@
+/* Weather parent container */
+.weather{
+    background-color:#333333;
+    width: 40%;
+    border-radius: 7px;
+    padding: 20px 25px;
+    margin: 25px auto;
+   
+}
+/* top div in weather container */
+.top{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather--condition{
+    text-transform: capitalize;
+}
+
+
+/* city name section */
+.city--name{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* bottom part of the weather container */
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+/* temp parameters inside the bottom div */
+.temp--parameters{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+    width: 250px;
+}
+
+
+.bottom .temperature{
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+
+@media (max-width:750px) {
+    .weather{
+        width: 70%;
+    }
+
+    .temp--parameters{
+       display: flex;
+       justify-content: space-between;
+    /* background-color: antiquewhite; */
+        width: 150px;
+    }
+    
+}
+
+@media (max-width:450px) {
+    .weather{
+        width: 90%;
+    }
+
+    .temp--parameters{
+       display: flex;
+       justify-content: space-between;
+    /* background-color: antiquewhite; */
+        width: 150px;
+    }
+    
+}
+
